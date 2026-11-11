@@ -50,7 +50,8 @@ Crie o banco `uvas` previamente no servidor MySQL. Use credenciais próprias par
 ## Deploy no Streamlit Community Cloud
 
 1. Publique este repositório em um provedor Git acessível pelo Streamlit Community Cloud.
-2. Crie uma aplicação apontando para `src/app.py`; o `requirements.txt` da raiz instala as dependências.
+2. Crie uma aplicação apontando para `uvas_stream/src/app.py`. O `requirements.txt`
+   da raiz do repositório encaminha a instalação para `uvas_stream/requirements.txt`.
 3. Configure os segredos da aplicação na área **Settings > Secrets**:
 
 ```toml
