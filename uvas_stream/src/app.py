@@ -1,5 +1,5 @@
 from datetime import date
-
+import sqlalchemy
 import streamlit as st
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
